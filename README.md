@@ -47,7 +47,7 @@ There are a few more steps to initiate the oled and case fans
 cd ~/pironman5
 sudo nano /boot/config.txt
 -
-
+```
 
 ## Update
 
@@ -75,7 +75,7 @@ Home Assistant OS 14.0 | 2024-12-03 | &#x2705;
 Homebridge bookworm (64 bit) | 2024-05-03 | &#x2705;
 Homebridge bookworm (64 bit) | 2024-05-03 | &#x2705;
 Batocera Linux | 2024-07-31 | &#x2705;
-
+```
 ### Ubuntu 24.04 server eth0 and wifi not work
 
 https://www.reddit.com/r/Ubuntu/comments/1d0s8v5/ubuntu_2404_server_on_my_raspberry_pi_5_and_eth0/
