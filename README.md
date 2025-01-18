@@ -15,19 +15,16 @@ Quick Links:
   - [Compatible Systems](#compatible-systems)
     - [Ubuntu 24.04 server eth0 and wifi not work](#ubuntu-2404-server-eth0-and-wifi-not-work)
     - [Debug](#debug)
-  - [About SunFounder](#about-sunfounder)
-  - [Contact us](#contact-us)
 
 ## About Pironman5
 
 ## Links
 
-- SunFounder Online Store &emsp; <https://www.sunfounder.com/>
 - Documentation &emsp; <https://docs.sunfounder.com/en/latest/>
 
 ## Installation
 
-For systems that don't have git, python3 pre-installed you need to install them first
+If your systems doesn't have git, or python3 pre-installed you need to install them first
 
 ```bash
 sudo apt-get update
