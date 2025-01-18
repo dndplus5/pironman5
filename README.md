@@ -53,6 +53,7 @@ sudo nano /boot/config.txt
 
 <https://github.com/sunfounder/pironman5/blob/main/CHANGELOG.md>
 
+```bash
 ## Compatible Systems
 
 Operate Systems that passed the test on the Raspberry Pi 5:
