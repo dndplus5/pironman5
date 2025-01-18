@@ -1,0 +1,7 @@
+## View the Basic Configurations
+
+# The pironman5 module offers basic configurations for Pironman, which you can review with the following command.
+
+```bash
+sudo pironman5 -c
+```
