@@ -41,8 +41,13 @@ sudo python3 install.py
 ```
 
 ## Usage
+There are a few more steps to initiate the oled and case fans
 
+```bash
+cd ~/pironman5
+sudo nano /boot/config.txt
 -
+
 
 ## Update
 
