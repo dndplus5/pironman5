@@ -46,7 +46,21 @@ There are a few more steps to initiate the oled and case fans
 ```bash
 cd ~/pironman5
 sudo nano /boot/config.txt
--
+```
+## Config.txt
+Add these lines of code to activate the pins for the oled and case fans
+
+```bash
+dtoverlay=gpio-power,gpio_pin=26,active_low=0
+dtoverlay=gpio-ir,gpio_pin=13
+```
+# cntrl+o, enter, cntrl+x to save and exit the file
+
+# Now let's turn the fans on
+
+```bash
+sudo pironman5 -gpn 0
+sudo systemctl restart pironman5.service
 ```
 
 ## Update
