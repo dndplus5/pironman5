@@ -58,7 +58,7 @@ cntrl+o, enter, cntrl+x to save and exit the file
 ```
 
 
-# Now let's turn the fans on
+Now let's turn the fans on
 
 ```bash
 sudo pironman5 -gpn 0
