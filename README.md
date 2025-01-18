@@ -59,9 +59,14 @@ cntrl+o, enter, cntrl+x to save and exit the file
 
 
 Now let's turn the fans on
+0 = always on
+1 = performance activates at 50°c
+2 = cool activates at 60°c
+3 = balanced activates at 67.5°c
+4 = quiet activates at 70°c
 
 ```bash
-sudo pironman5 -gpn 0
+sudo pironman5 -gm 0 
 sudo systemctl restart pironman5.service
 ```
 
